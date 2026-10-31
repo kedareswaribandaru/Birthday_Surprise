@@ -1,63 +1,63 @@
-/**
- * TEMPLATE CONTENT
- *
- * Replace the bracketed values before publishing a customized copy.
- * Do not commit private photos, personal messages, or licensed audio unless
- * everyone involved has consented and you have the right to distribute them.
- */
 export const templateContent = {
-  recipientName: "[RECIPIENT NAME]",
-  age: "[AGE]",
-  senderName: "[YOUR NAME]",
-  message: [
-    "[WRITE YOUR BIRTHDAY MESSAGE HERE.]",
-    "[ADD ANOTHER SHORT PARAGRAPH OR DELETE THIS PLACEHOLDER.]",
-    "[END WITH A WARM WISH FOR THE YEAR AHEAD.]",
-  ],
-  footerText: "Made with care using the Birthday Surprise Template",
+  recipientName: "Arushi",
+  age: "24th",
+  senderName: "Kedari💕",
 
-  /**
-   * Replace each placeholder path with a photo stored under public/media.
-   * Keep private media out of Git when preparing a public repository.
-   */
+  message: [
+    "Happy Birthday, Arushi! 🎀💕",
+    "Wishing you a year full of happiness, laughter, little adventures, and beautiful memories.",
+    "May your days be filled with good people, exciting opportunities, and lots of reasons to smile.",
+    "Keep shining, keep being your lovely self, and have the sweetest birthday ever! 🌷",
+  ],
+
+  footerText: "A little scrapbook of smiles, made with care ♡",
+
   photos: [
     {
       id: 1,
-      src: "/placeholders/photo-placeholder.svg",
-      alt: "Template photo placeholder 1",
-      caption: "[PHOTO CAPTION 1]",
+      src: "/media/memory-01.jpg",
+      alt: "Birthday scrapbook memory one",
+      caption: "Little moments, big smiles ♡",
       rotation: -3,
       position: { x: 15, y: 10 },
     },
     {
       id: 2,
-      src: "/placeholders/photo-placeholder.svg",
-      alt: "Template photo placeholder 2",
-      caption: "[PHOTO CAPTION 2]",
+      src: "/media/memory-02.jpg",
+      alt: "Birthday scrapbook memory two",
+      caption: "Office memories 🌷",
       rotation: 2,
       position: { x: 45, y: 5 },
     },
     {
       id: 3,
-      src: "/placeholders/photo-placeholder.svg",
-      alt: "Template photo placeholder 3",
-      caption: "[PHOTO CAPTION 3]",
+      src: "/media/memory-03.jpg",
+      alt: "Birthday scrapbook memory three",
+      caption: "A little snapshot of happiness",
       rotation: -1,
       position: { x: 75, y: 10 },
     },
     {
       id: 4,
-      src: "/placeholders/photo-placeholder.svg",
-      alt: "Template photo placeholder 4",
-      caption: "[PHOTO CAPTION 4]",
+      src: "/media/memory-04.jpg",
+      alt: "Birthday scrapbook memory four",
+      caption: "Good times, good company ♡",
       rotation: 4,
       position: { x: 25, y: 50 },
     },
     {
       id: 5,
-      src: "/placeholders/photo-placeholder.svg",
-      alt: "Template photo placeholder 5",
-      caption: "[PHOTO CAPTION 5]",
+      src: "/media/memory-05.jpg",
+      alt: "Birthday scrapbook memory five",
+      caption: "More memories to come ✨",
+      rotation: -2,
+      position: { x: 65, y: 40 },
+    },
+     {
+      id: 5,
+      src: "/media/memory-06.jpg",
+      alt: "Birthday scrapbook memory five",
+      caption: "More memories to come ✨",
       rotation: -2,
       position: { x: 65, y: 40 },
     },
