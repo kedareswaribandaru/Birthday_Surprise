@@ -15,9 +15,6 @@ build/
 .env.test.local
 .env.production.local
 
-# Private customization media
-public/media/*
-!public/media/.gitkeep
 
 # IDE and editor files
 .vscode/
