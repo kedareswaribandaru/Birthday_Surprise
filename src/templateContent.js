@@ -15,7 +15,7 @@ export const templateContent = {
   photos: [
     {
       id: 1,
-      src: "/media/memory-01.jpg",
+      src: `${import.meta.env.BASE_URL}media/memory-01.jpg`,
       alt: "Birthday scrapbook memory one",
       caption: "Little moments, big smiles ♡",
       rotation: -3,
@@ -23,7 +23,7 @@ export const templateContent = {
     },
     {
       id: 2,
-      src: "/media/memory-02.jpg",
+      src: `${import.meta.env.BASE_URL}media/memory-02.jpg`,
       alt: "Birthday scrapbook memory two",
       caption: "Office memories 🌷",
       rotation: 2,
@@ -31,7 +31,7 @@ export const templateContent = {
     },
     {
       id: 3,
-      src: "/media/memory-03.jpg",
+      src: `${import.meta.env.BASE_URL}media/memory-03.jpg`,
       alt: "Birthday scrapbook memory three",
       caption: "A little snapshot of happiness",
       rotation: -1,
@@ -39,7 +39,7 @@ export const templateContent = {
     },
     {
       id: 4,
-      src: "/media/memory-04.jpg",
+      src: `${import.meta.env.BASE_URL}media/memory-04.jpg`,
       alt: "Birthday scrapbook memory four",
       caption: "Good times, good company ♡",
       rotation: 4,
@@ -47,16 +47,16 @@ export const templateContent = {
     },
     {
       id: 5,
-      src: "/media/memory-05.jpg",
+      src: `${import.meta.env.BASE_URL}media/memory-05.jpg`,
       alt: "Birthday scrapbook memory five",
       caption: "More memories to come ✨",
       rotation: -2,
       position: { x: 65, y: 40 },
     },
      {
-      id: 5,
-      src: "/media/memory-06.jpg",
-      alt: "Birthday scrapbook memory five",
+      id: 6,
+      src: `${import.meta.env.BASE_URL}media/memory-06.jpg`,
+      alt: "Birthday scrapbook memory six",
       caption: "More memories to come ✨",
       rotation: -2,
       position: { x: 65, y: 40 },
